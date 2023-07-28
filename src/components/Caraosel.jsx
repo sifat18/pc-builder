@@ -5,11 +5,11 @@ import banner1 from "@/assets/banner1.jpg";
 import banner2 from "@/assets/banner2.jpg";
 import banner3 from "@/assets/banner3.jpg";
 
-const aspectRatio = 16 / 9; // Set your desired aspect ratio (width / height)
+const aspectRatio = 16 / 9; 
 
 const imageStyle = {
   width: '100%',
-  paddingTop: `${(1 / aspectRatio) * 100}%`, // Set padding-top to maintain aspect ratio
+  paddingTop: `${(1 / aspectRatio) * 100}%`, 
   position: 'relative',
 };
 

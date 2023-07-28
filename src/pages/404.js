@@ -4,7 +4,7 @@ import React from 'react'
 const ErrorPage = () => {
     const router =useRouter()
 
-    setTimeout(()=>{router.push('/')},3000)
+    setTimeout(()=>{router.push('/')},2000)
   return (
     <div>404</div>
   )
