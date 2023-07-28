@@ -1,4 +1,6 @@
+import RootLayout from '@/components/RootLayout'
 import Head from 'next/head'
+// import RootLayout from './../components/RootLayout';
 
 
 export default function Home() {
@@ -14,3 +16,7 @@ export default function Home() {
     </>
   )
 }
+
+Home.getLayout = function getLayout(page) {
+  return <RootLayout>{page}</RootLayout>;
+};
