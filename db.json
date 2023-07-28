@@ -1,0 +1,506 @@
+{
+  "data": [
+    {
+      "Image": "cpu1.jpg",
+      "Product Name": "AMD Ryzen 9 5900X",
+      "Category": "CPU / Processor",
+      "Status": "In Stock",
+      "Price": "$649.99",
+      "Description": "The AMD Ryzen 9 5900X is a powerful processor for high-end gaming and content creation.",
+      "Key Features": {
+        "Brand": "AMD",
+        "Model": "Ryzen 9 5900X",
+        "Specification": "12 cores, 24 threads",
+        "Base Clock": "3.7 GHz",
+        "Max Boost Clock": "4.8 GHz",
+        "Socket": "AM4"
+      },
+      "Individual Rating": 4.9,
+      "Average Rating": 4.8,
+      "Reviews": [
+        "Amazing CPU, great for gaming and streaming.",
+        "Fast and efficient processor, highly recommended.",
+        "Impressive multi-core performance."
+      ]
+    },
+    {
+      "Image": "cpu2.jpg",
+      "Product Name": "Intel Core i7-11700K",
+      "Category": "CPU / Processor",
+      "Status": "In Stock",
+      "Price": "$429.99",
+      "Description": "The Intel Core i7-11700K offers excellent performance for gaming and multitasking.",
+      "Key Features": {
+        "Brand": "Intel",
+        "Model": "Core i7-11700K",
+        "Specification": "8 cores, 16 threads",
+        "Base Clock": "3.6 GHz",
+        "Max Turbo Clock": "5.0 GHz",
+        "Socket": "LGA 1200"
+      },
+      "Individual Rating": 4.7,
+      "Average Rating": 4.6,
+      "Reviews": [
+        "Great value for the performance it delivers.",
+        "Runs cool even under heavy loads.",
+        "Perfect for gaming and productivity tasks."
+      ]
+    },
+    {
+      "Image": "cpu3.jpg",
+      "Product Name": "AMD Ryzen 5 5600X",
+      "Category": "CPU / Processor",
+      "Status": "In Stock",
+      "Price": "$299.99",
+      "Description": "The AMD Ryzen 5 5600X is an excellent choice for gaming and everyday computing.",
+      "Key Features": {
+        "Brand": "AMD",
+        "Model": "Ryzen 5 5600X",
+        "Specification": "6 cores, 12 threads",
+        "Base Clock": "3.7 GHz",
+        "Max Boost Clock": "4.6 GHz",
+        "Socket": "AM4"
+      },
+      "Individual Rating": 4.6,
+      "Average Rating": 4.5,
+      "Reviews": [
+        "Awesome CPU for the price, snappy performance.",
+        "Runs most games smoothly at high settings.",
+        "A great balance between price and performance."
+      ]
+    },
+
+    {
+      "Image": "motherboard1.jpg",
+      "Product Name": "ASUS ROG Strix X570-E",
+      "Category": "Motherboard",
+      "Status": "In Stock",
+      "Price": "$319.99",
+      "Description": "The ASUS ROG Strix X570-E is a high-end motherboard for gaming enthusiasts.",
+      "Key Features": {
+        "Brand": "ASUS",
+        "Model": "ROG Strix X570-E",
+        "Chipset": "AMD X570",
+        "Form Factor": "ATX",
+        "Memory Support": "DDR4 up to 5100 MHz",
+        "M.2 Slots": "2",
+        "USB Ports": "12"
+      },
+      "Individual Rating": 4.8,
+      "Average Rating": 4.7,
+      "Reviews": [
+        "Excellent build quality and premium features.",
+        "Easy to overclock and stable performance.",
+        "Great RGB lighting customization."
+      ]
+    },
+    {
+      "Image": "motherboard2.jpg",
+      "Product Name": "GIGABYTE Z590 AORUS Ultra",
+      "Category": "Motherboard",
+      "Status": "In Stock",
+      "Price": "$369.99",
+      "Description": "The GIGABYTE Z590 AORUS Ultra offers robust performance and impressive design.",
+      "Key Features": {
+        "Brand": "GIGABYTE",
+        "Model": "Z590 AORUS Ultra",
+        "Chipset": "Intel Z590",
+        "Form Factor": "ATX",
+        "Memory Support": "DDR4 up to 5400 MHz",
+        "M.2 Slots": "3",
+        "USB Ports": "10"
+      },
+      "Individual Rating": 4.9,
+      "Average Rating": 4.8,
+      "Reviews": [
+        "High-quality motherboard with great features.",
+        "Easy BIOS update and smooth performance.",
+        "Ample connectivity options for my setup."
+      ]
+    },
+    {
+      "Image": "motherboard3.jpg",
+      "Product Name": "MSI B550 Tomahawk",
+      "Category": "Motherboard",
+      "Status": "In Stock",
+      "Price": "$179.99",
+      "Description": "The MSI B550 Tomahawk is a reliable motherboard with strong VRM for gaming.",
+      "Key Features": {
+        "Brand": "MSI",
+        "Model": "B550 Tomahawk",
+        "Chipset": "AMD B550",
+        "Form Factor": "ATX",
+        "Memory Support": "DDR4 up to 5100 MHz",
+        "M.2 Slots": "2",
+        "USB Ports": "8"
+      },
+      "Individual Rating": 4.7,
+      "Average Rating": 4.6,
+      "Reviews": [
+        "Great value for the price and performance.",
+        "Solid build quality and excellent thermals.",
+        "Easy to set up and tweak BIOS settings."
+      ]
+    },
+    {
+      "Image": "ram1.jpg",
+      "Product Name": "Corsair Vengeance RGB Pro",
+      "Category": "RAM",
+      "Status": "In Stock",
+      "Price": "$89.99",
+      "Description": "Corsair Vengeance RGB Pro offers high-speed and visually stunning memory performance.",
+      "Key Features": {
+        "Brand": "Corsair",
+        "Model": "Vengeance RGB Pro",
+        "Capacity": "16GB (2x8GB)",
+        "Speed": "3600 MHz",
+        "CAS Latency": "CL18",
+        "RGB Lighting": "Yes",
+        "Memory Type": "DDR4"
+      },
+      "Individual Rating": 4.7,
+      "Average Rating": 4.6,
+      "Reviews": [
+        "Great-looking RGB and excellent performance.",
+        "Reliable and fast memory for gaming and multitasking.",
+        "Overclocks easily and stays cool."
+      ]
+    },
+    {
+      "Image": "ram2.jpg",
+      "Product Name": "G.SKILL Trident Z Neo",
+      "Category": "RAM",
+      "Status": "In Stock",
+      "Price": "$119.99",
+      "Description": "G.SKILL Trident Z Neo delivers high-speed memory performance for enthusiasts.",
+      "Key Features": {
+        "Brand": "G.SKILL",
+        "Model": "Trident Z Neo",
+        "Capacity": "32GB (2x16GB)",
+        "Speed": "3600 MHz",
+        "CAS Latency": "CL16",
+        "RGB Lighting": "Yes",
+        "Memory Type": "DDR4"
+      },
+      "Individual Rating": 4.8,
+      "Average Rating": 4.7,
+      "Reviews": [
+        "Premium memory with stable performance.",
+        "Impressive RGB effects and build quality.",
+        "Great for heavy multitasking and content creation."
+      ]
+    },
+    {
+      "Image": "ram3.jpg",
+      "Product Name": "Crucial Ballistix 3600 MHz",
+      "Category": "RAM",
+      "Status": "In Stock",
+      "Price": "$79.99",
+      "Description": "Crucial Ballistix offers high-speed and reliable memory for gaming and productivity.",
+      "Key Features": {
+        "Brand": "Crucial",
+        "Model": "Ballistix 3600 MHz",
+        "Capacity": "16GB (2x8GB)",
+        "Speed": "3600 MHz",
+        "CAS Latency": "CL16",
+        "RGB Lighting": "No",
+        "Memory Type": "DDR4"
+      },
+      "Individual Rating": 4.6,
+      "Average Rating": 4.5,
+      "Reviews": [
+        "Solid performance at an affordable price.",
+        "Runs stable even with XMP enabled.",
+        "Great value for mid-range gaming builds."
+      ]
+    },
+    {
+      "Image": "psu1.jpg",
+      "Product Name": "EVGA SuperNOVA 850 G+",
+      "Category": "Power Supply Unit",
+      "Status": "In Stock",
+      "Price": "$139.99",
+      "Description": "EVGA SuperNOVA 850 G+ provides reliable power delivery for high-performance systems.",
+      "Key Features": {
+        "Brand": "EVGA",
+        "Model": "SuperNOVA 850 G+",
+        "Wattage": "850W",
+        "80 Plus Rating": "Gold",
+        "Modular": "Fully Modular",
+        "Fan Size": "140mm",
+        "Connectors": "24-pin ATX, 8-pin CPU, PCIe, SATA, Molex"
+      },
+      "Individual Rating": 4.6,
+      "Average Rating": 4.5,
+      "Reviews": [
+        "High-quality PSU with efficient power delivery.",
+        "Runs silently even under heavy loads.",
+        "Ample connectors for various components."
+      ]
+    },
+    {
+      "Image": "psu2.jpg",
+      "Product Name": "Corsair RM750x",
+      "Category": "Power Supply Unit",
+      "Status": "In Stock",
+      "Price": "$129.99",
+      "Description": "Corsair RM750x offers excellent efficiency and stable power output.",
+      "Key Features": {
+        "Brand": "Corsair",
+        "Model": "RM750x",
+        "Wattage": "750W",
+        "80 Plus Rating": "Gold",
+        "Modular": "Fully Modular",
+        "Fan Size": "135mm",
+        "Connectors": "24-pin ATX, 8-pin CPU, PCIe, SATA, Molex"
+      },
+      "Individual Rating": 4.7,
+      "Average Rating": 4.6,
+      "Reviews": [
+        "Quiet PSU with clean power delivery.",
+        "Easy cable management with modular design.",
+        "Great value for the wattage and efficiency."
+      ]
+    },
+    {
+      "Image": "psu3.jpg",
+      "Product Name": "Seasonic Focus GX-850",
+      "Category": "Power Supply Unit",
+      "Status": "In Stock",
+      "Price": "$159.99",
+      "Description": "Seasonic Focus GX-850 is a premium PSU with high-end performance and reliability.",
+      "Key Features": {
+        "Brand": "Seasonic",
+        "Model": "Focus GX-850",
+        "Wattage": "850W",
+        "80 Plus Rating": "Gold",
+        "Modular": "Fully Modular",
+        "Fan Size": "135mm",
+        "Connectors": "24-pin ATX, 8-pin CPU, PCIe, SATA, Molex"
+      },
+      "Individual Rating": 4.8,
+      "Average Rating": 4.7,
+      "Reviews": [
+        "Top-notch PSU with stable voltages and low noise.",
+        "Great build quality and efficient power delivery.",
+        "Worth the investment for high-end builds."
+      ]
+    },
+
+    {
+      "Image": "storage1.jpg",
+      "Product Name": "Samsung 970 EVO Plus",
+      "Category": "Storage Device",
+      "Status": "In Stock",
+      "Price": "$129.99",
+      "Description": "Samsung 970 EVO Plus offers high-speed NVMe storage for faster data access.",
+      "Key Features": {
+        "Brand": "Samsung",
+        "Model": "970 EVO Plus",
+        "Capacity": "1TB",
+        "Interface": "M.2 NVMe",
+        "Read Speed": "3500 MB/s",
+        "Write Speed": "3300 MB/s"
+      },
+      "Individual Rating": 4.9,
+      "Average Rating": 4.8,
+      "Reviews": [
+        "Blazing fast storage for OS and applications.",
+        "Reliable performance with consistent speeds.",
+        "Highly recommended for gamers and content creators."
+      ]
+    },
+    {
+      "Image": "storage2.jpg",
+      "Product Name": "Western Digital Blue",
+      "Category": "Storage Device",
+      "Status": "In Stock",
+      "Price": "$79.99",
+      "Description": "Western Digital Blue offers reliable SATA storage for everyday computing.",
+      "Key Features": {
+        "Brand": "Western Digital",
+        "Model": "Blue",
+        "Capacity": "1TB",
+        "Interface": "SATA III",
+        "Read Speed": "560 MB/s",
+        "Write Speed": "530 MB/s"
+      },
+      "Individual Rating": 4.7,
+      "Average Rating": 4.6,
+      "Reviews": [
+        "Solid SSD for the price, faster boot times.",
+        "Quiet and energy-efficient storage solution.",
+        "Great upgrade for older systems."
+      ]
+    },
+    {
+      "Image": "storage3.jpg",
+      "Product Name": "Seagate BarraCuda",
+      "Category": "Storage Device",
+      "Status": "In Stock",
+      "Price": "$59.99",
+      "Description": "Seagate BarraCuda is a cost-effective HDD with ample storage capacity.",
+      "Key Features": {
+        "Brand": "Seagate",
+        "Model": "BarraCuda",
+        "Capacity": "2TB",
+        "Interface": "SATA III",
+        "Speed": "7200 RPM",
+        "Cache": "256MB"
+      },
+      "Individual Rating": 4.6,
+      "Average Rating": 4.5,
+      "Reviews": [
+        "Affordable and reliable storage for mass data.",
+        "Plenty of space for games and media files.",
+        "Good performance for an HDD."
+      ]
+    },
+
+    {
+      "Image": "monitor1.jpg",
+      "Product Name": "LG 27GL850-B",
+      "Category": "Monitor",
+      "Status": "In Stock",
+      "Price": "$449.99",
+      "Description": "LG 27GL850-B is a high-quality gaming monitor with a fast refresh rate and low input lag.",
+      "Key Features": {
+        "Brand": "LG",
+        "Model": "27GL850-B",
+        "Screen Size": "27 inches",
+        "Resolution": "2560x1440 (QHD)",
+        "Panel Type": "Nano IPS",
+        "Refresh Rate": "144Hz",
+        "Response Time": "1ms (GtG)",
+        "Connectors": "HDMI, DisplayPort, USB 3.0"
+      },
+      "Individual Rating": 4.8,
+      "Average Rating": 4.7,
+      "Reviews": [
+        "Excellent colors and smooth gaming experience.",
+        "Minimal motion blur in fast-paced games.",
+        "Perfect size for productivity and gaming."
+      ]
+    },
+    {
+      "Image": "monitor2.jpg",
+      "Product Name": "ASUS ROG Swift PG279Q",
+      "Category": "Monitor",
+      "Status": "In Stock",
+      "Price": "$649.99",
+      "Description": "ASUS ROG Swift PG279Q offers a premium gaming experience with G-Sync and high resolution.",
+      "Key Features": {
+        "Brand": "ASUS",
+        "Model": "ROG Swift PG279Q",
+        "Screen Size": "27 inches",
+        "Resolution": "2560x1440 (QHD)",
+        "Panel Type": "IPS",
+        "Refresh Rate": "165Hz",
+        "Response Time": "4ms (GtG)",
+        "Connectors": "HDMI, DisplayPort, USB 3.0"
+      },
+      "Individual Rating": 4.9,
+      "Average Rating": 4.8,
+      "Reviews": [
+        "Stunning colors and buttery smooth gaming.",
+        "No noticeable input lag and minimal ghosting.",
+        "Great for gaming and photo editing."
+      ]
+    },
+    {
+      "Image": "monitor3.jpg",
+      "Product Name": "Acer R240HY",
+      "Category": "Monitor",
+      "Status": "In Stock",
+      "Price": "$139.99",
+      "Description": "Acer R240HY is a budget-friendly monitor with a sleek design and vibrant display.",
+      "Key Features": {
+        "Brand": "Acer",
+        "Model": "R240HY",
+        "Screen Size": "23.8 inches",
+        "Resolution": "1920x1080 (Full HD)",
+        "Panel Type": "IPS",
+        "Refresh Rate": "60Hz",
+        "Response Time": "4ms (GtG)",
+        "Connectors": "HDMI, VGA"
+      },
+      "Individual Rating": 4.7,
+      "Average Rating": 4.6,
+      "Reviews": [
+        "Great value for a budget monitor.",
+        "Crisp and clear visuals for everyday use.",
+        "Perfect size for a dual-monitor setup."
+      ]
+    },
+
+    {
+      "Image": "keyboard1.jpg",
+      "Product Name": "Logitech G Pro Mechanical Keyboard",
+      "Category": "Others",
+      "Status": "In Stock",
+      "Price": "$129.99",
+      "Description": "Logitech G Pro Mechanical Keyboard offers precise and responsive key switches for gaming.",
+      "Key Features": {
+        "Brand": "Logitech",
+        "Model": "G Pro",
+        "Switch Type": "Mechanical (Clicky)",
+        "Backlighting": "RGB",
+        "Connectors": "USB",
+        "Additional Features": "Customizable macros, detachable cable"
+      },
+      "Individual Rating": 4.8,
+      "Average Rating": 4.7,
+      "Reviews": [
+        "High-quality keyboard with satisfying keypresses.",
+        "Great for gaming and typing.",
+        "Compact design and sturdy build."
+      ]
+    },
+    {
+      "Image": "keyboard2.jpg",
+      "Product Name": "Razer Huntsman Elite Gaming Keyboard",
+      "Category": "Others",
+      "Status": "In Stock",
+      "Price": "$199.99",
+      "Description": "Razer Huntsman Elite Gaming Keyboard offers lightning-fast key actuation and premium features.",
+      "Key Features": {
+        "Brand": "Razer",
+        "Model": "Huntsman Elite",
+        "Switch Type": "Opto-Mechanical (Clicky)",
+        "Backlighting": "RGB",
+        "Connectors": "USB",
+        "Additional Features": "Wrist rest, customizable RGB lighting"
+      },
+      "Individual Rating": 4.9,
+      "Average Rating": 4.8,
+      "Reviews": [
+        "Impressive typing experience and tactile feedback.",
+        "Beautiful RGB effects and responsive keys.",
+        "Great build quality and comfortable wrist rest."
+      ]
+    },
+    {
+      "Image": "mouse1.jpg",
+      "Product Name": "Logitech G Pro Wireless Gaming Mouse",
+      "Category": "Others",
+      "Status": "In Stock",
+      "Price": "$149.99",
+      "Description": "Logitech G Pro Wireless Gaming Mouse offers precise tracking and customizable buttons.",
+      "Key Features": {
+        "Brand": "Logitech",
+        "Model": "G Pro Wireless",
+        "Sensor Type": "Optical",
+        "DPI Range": "100 - 16,000 DPI",
+        "Connectors": "USB Wireless, USB Wired",
+        "Additional Features": "Lightweight design, customizable buttons"
+      },
+      "Individual Rating": 4.8,
+      "Average Rating": 4.7,
+      "Reviews": [
+        "Superb wireless performance with no lag.",
+        "Excellent battery life and comfortable grip.",
+        "Accurate tracking and smooth gliding."
+      ]
+    }
+  ]
+}
