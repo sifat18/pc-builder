@@ -1,6 +1,7 @@
 import RootLayout from '@/components/RootLayout'
 import Head from 'next/head'
 // import RootLayout from './../components/RootLayout';
+import CarouselComponent from './../components/Caraosel';
 
 
 export default function Home() {
@@ -12,7 +13,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>hello</h1>
+      <CarouselComponent/>
     </>
   )
 }

@@ -73,7 +73,7 @@ import DropDown from "./DropDown";
   
         <Content
           style={{
-            padding: "0 24px",
+            padding: "0 0",
             minHeight: "100vh",
           }}
         >
