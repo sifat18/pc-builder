@@ -53,10 +53,10 @@ BuildCategory.getLayout = function getLayout(page) {
 export const getServerSideProps = async (context) => {
   const { params } = context;
   const res = await fetch(
-    `http://localhost:5000/data`
+    `https://pcback-r74i.onrender.com/data`
   );
   const data = await res.json();
-  const productByCategory = data?.filter((item) => item.category === params?.buildName);
+  const productByCategory = data?.data?.filter((item) => item.category === params?.buildName);
   return {
     props: { productByCategory },
   };

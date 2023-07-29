@@ -41,9 +41,9 @@ ProductsByCategory.getLayout = function getLayout(page) {
 };
 
 export const getStaticPaths = async () => {
-  const res = await fetch(`http://localhost:5000/data`);
+  const res = await fetch(`https://pcback-r74i.onrender.com/data`);
   const data = await res.json();
-  const paths = data?.map((item) => ({
+  const paths = data?.data?.map((item) => ({
     params: {
       categoryName: `${item?.category}`,
     },
@@ -53,9 +53,9 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps = async (context) => {
   const { params } = context;
-  const res = await fetch(`http://localhost:5000/data`);
+  const res = await fetch(`https://pcback-r74i.onrender.com/data`);
   const product = await res.json();
-  const productByCategory = product?.filter((item) => item.category === params?.categoryName); // Correct variable name
+  const productByCategory = product?.data?.filter((item) => item.category === params?.categoryName); // Correct variable name
   return {
     props: { productByCategory },
   };

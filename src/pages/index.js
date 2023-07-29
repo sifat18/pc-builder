@@ -35,11 +35,12 @@ Home.getLayout = function getLayout(page) {
 };
 
 export const getStaticProps =async()=>{
-  const res=await fetch(' http://localhost:5000/data')
-  const data=await res?.json()
+  const res=await fetch('https://pcback-r74i.onrender.com/data')
+  const data=await res.json()
+console.log(data);
 
 
-  const featuredData=data?.filter(item=>item?.isFeatured)
+  const featuredData=data?.data?.filter(item=>item?.isFeatured)
   return{
       props:{
           featuredData,
