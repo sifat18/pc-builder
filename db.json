@@ -5,7 +5,7 @@
       "isFeatured": false,
       "image": "/cpu1.jpg",
       "product": "AMD Ryzen 9 5900X",
-      "category": "CPU / Processor",
+      "category": "CPU",
       "status": "In Stock",
       "price": "$649.99",
       "description": "The AMD Ryzen 9 5900X is a powerful processor for high-end gaming and content creation.",
@@ -31,7 +31,7 @@
 
       "image": "/cpu2.jpg",
       "product": "Intel Core i7-11700K",
-      "category": "CPU / Processor",
+      "category": "CPU",
       "status": "In Stock",
       "price": "$429.99",
       "description": "The Intel Core i7-11700K offers excellent performance for gaming and multitasking.",
@@ -56,7 +56,7 @@
 
       "image": "/cpu3.jpg",
       "product": "AMD Ryzen 5 5600X",
-      "category": "CPU / Processor",
+      "category": "CPU",
       "status": "In Stock",
       "price": "$299.99",
       "description": "The AMD Ryzen 5 5600X is an excellent choice for gaming and everyday computing.",

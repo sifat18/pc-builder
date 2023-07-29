@@ -5,7 +5,7 @@ const items = [
   {
     key: '1',
     label: (
-        <Link href={'/CPU'}>
+        <Link href={'/category/CPU'}>
         CPU / Processor
       </Link>
     ),
@@ -13,7 +13,7 @@ const items = [
   {
     key: '2',
     label: (
-      <Link href={'/Monitor'}>
+      <Link href={'/category/Monitor'}>
         Monitor
       </Link>
     ),
@@ -21,7 +21,7 @@ const items = [
   {
     key: '3',
     label: (
-        <Link href={'/Motherboard'}>
+        <Link href={'/category/Motherboard'}>
         Motherboard
       </Link>
     ),
@@ -29,7 +29,7 @@ const items = [
   {
     key: '4',
     label: (
-        <Link href={'/RAM'}>
+        <Link href={'/category/RAM'}>
         RAM
       </Link>
     ),
@@ -37,7 +37,7 @@ const items = [
   {
     key: '5',
     label: (
-        <Link href={'/PSU'}>
+        <Link href={'/category/Power Supply Unit'}>
         Power Supply Unit
       </Link>
     ),
@@ -45,7 +45,7 @@ const items = [
   {
     key: '6',
     label: (
-        <Link href={'/StorageDevice'}>
+        <Link href={'/category/Storage Device'}>
     Storage Device
       </Link>
     ),

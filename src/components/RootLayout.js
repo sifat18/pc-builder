@@ -55,14 +55,14 @@ import DropDown from "./DropDown";
                 Sign In
               </items>
             </Link>
-            <Link href="/contact">
+            <Link href="/pc_builder">
               <items>
                 {/* <MobileOutlined />  */}
                 <Button
           type="primary"
           icon={<PoweroffOutlined />}
          
-          onClick={() => enterLoading(1)}
+         
         >
           PC BUILDER
         </Button>
