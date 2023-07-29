@@ -10,6 +10,7 @@ import Link from "next/link"; //
 import { useSelector } from "react-redux";
 import { ToastContainer, toast } from "react-toastify";
 import Product from "@/components/Product";
+import { useSession } from "next-auth/react";
 
 const categories = [
   {
@@ -52,11 +53,12 @@ const categories = [
 
 const StackOfCards = () => {
   const { products } = useSelector((state) => state.cart);
+  const { data: session } = useSession()
 
   return (
     <>
       <div style={{ margin: "2em 5em" }}>
-        <h2 style={{ textAlign: "center" }}>Build PC By Yourself</h2>
+        <h2 style={{ textAlign: "center" }}>Build PC By Yourself {session?.user?.name}</h2>
         <div
           style={{
             margin: "1em auto",
