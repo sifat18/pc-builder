@@ -1,5 +1,6 @@
 import { Card, Col, Row } from "antd";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 const { Meta } = Card;
 const FeaturedProducts = ({featuredData}) => {
@@ -9,9 +10,13 @@ const FeaturedProducts = ({featuredData}) => {
    <Row style={{margin:"2em 0.5em"}} justify="center"  gutter={[8, { xs: 8, sm: 16, md: 24, lg: 32 }]}
       >
         {featuredData.map(item=>(
+            <Link 
+ key={item?.id}
+            
+            href={`/details/${item?.id}`}>
+            
  <Col
  className="gutter-row"
- key={item?.id}
 
 
 >
@@ -28,6 +33,7 @@ const FeaturedProducts = ({featuredData}) => {
 
   </Card>
 </Col>
+</Link>
         ))}
      
     
