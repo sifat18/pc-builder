@@ -6,6 +6,7 @@ import { CgSmartphoneRam } from 'react-icons/cg';
 import { ImPowerCord } from 'react-icons/im';
 import { GrStorage } from 'react-icons/gr';
 import { FiMonitor } from 'react-icons/fi';
+import Link from 'next/link';
 const categories=[
     {
       id:1,
@@ -53,6 +54,7 @@ const Categories = () => {
      <Row style={{margin:"2em 0.5em"}} justify="center"  gutter={[8, { xs: 8, sm: 16, md: 24, lg: 32 }]}
       >
         {categories.map(item=>(
+          <Link href={`/category/${item?.name}`}>
  <Col
  className="gutter-row"
  key={item?.id}
@@ -71,6 +73,7 @@ width: 300,
 {/* <p>Card content</p> */}
 </Card>    
 </Col>
+</Link>
         ))}
      
     
