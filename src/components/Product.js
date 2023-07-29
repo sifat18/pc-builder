@@ -6,16 +6,15 @@ const Product = ({ product }) => {
     <div>
       <Row align="middle" gutter={[16, 16]}>
         {/* Left Part */}
-        <Col span={6}>
+        <Col xs={24} sm={12} md={6}>
           <img src={product.image} alt="Product" style={{ width: "100%" }} />
-          <h3 style={{ margin: "0" }}>{product.category}</h3>
+          <h3 style={{ margin: "0", textAlign: "center" }}>{product.category}</h3>
         </Col>
         {/* Middle Part */}
-        <Col span={12}>
+        <Col xs={24} sm={12} md={12}>
           <p>{product?.description}</p>
           <p>{product?.price}</p>
           <Rate disabled allowHalf defaultValue={product?.rating} />
-          {/* <p>{product?.raitng }</p> */}
         </Col>
       </Row>
     </div>
