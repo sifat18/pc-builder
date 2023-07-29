@@ -1,13 +1,10 @@
 import RootLayout from "@/components/RootLayout";
-import { Button, Card, Col, Row } from "antd";
+import { Card, Col, Row } from "antd";
 import Meta from "antd/lib/card/Meta"; // Correct import
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/router";
 
 const ProductsByCategory = ({ productByCategory }) => {
-    const router = useRouter();
-    const { build } = router.query;
   return (
     <>
       <Row
@@ -23,13 +20,11 @@ const ProductsByCategory = ({ productByCategory }) => {
                 style={{ width: 270 }}
                 cover={<Image alt="example" src={item?.image} width="240" height={240} />}
               >
-                <Meta title={item?.product}  /> {/* Use Meta correctly */}
+                <Meta title={item?.product} description={item?.description} /> {/* Use Meta correctly */}
                 <p>Price: {item?.price}</p>
                 <p>Category: {item?.category}</p>
                 <p>Rating: {item?.rating}</p>
                 <p>{item?.status}</p>
-                {build ?  <Button type="text">Add to PC Builder</Button>:null}
-                
               </Card>
             </Col>
           </Link>

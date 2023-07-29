@@ -1,5 +1,5 @@
 import RootLayout from '@/components/RootLayout';
-import { Card, Button, Row, Col } from 'antd';
+import { Card, Button, Row, Col, Rate } from 'antd';
 import { GoCpu } from 'react-icons/go';
 import { BsMotherboard } from 'react-icons/bs';
 import { CgSmartphoneRam } from 'react-icons/cg';
@@ -7,6 +7,9 @@ import { ImPowerCord } from 'react-icons/im';
 import { GrStorage } from 'react-icons/gr';
 import { FiMonitor } from 'react-icons/fi';
 import Link from 'next/link'; //
+import { useSelector } from 'react-redux';
+import { ToastContainer, toast } from 'react-toastify';
+import Product from '@/components/Product';
 
 const categories = [
   {
@@ -48,7 +51,10 @@ const categories = [
 ];
 
 const StackOfCards = () => {
-  return (
+    const {products} = useSelector((state) => state.cart )
+  
+    return (
+        <>
     <div style={{ margin: '2em 5em' }}>
       <h2 style={{ textAlign: 'center' }}>Build PC By Yourself</h2>
       <div style={{ margin: '1em auto', height: '5px', fontWeight: '700', background: '#000', width: '15rem' }}></div>
@@ -62,15 +68,23 @@ const StackOfCards = () => {
                   {item?.icons}
                   <h3 style={{ margin: '0' }}>{item.name}</h3>
                 </Col>
-                {/* Middle Part */}
+                {/* prod Part */}
                 <Col span={12}>
-                  {/* No details property here */}
-                  <p>{item.label}</p>
+                {products && products?.map(product=>(
+<>
+{product?.category === item.name ? (<>
+    <Product product={product}/>
+
+</>):null}
+</>
+
+                ))}
+                  
                 </Col>
                 {/* Right Part */}
                 <Col span={6} style={{ textAlign: 'right' }}>
                   {/* Link should wrap the button text */}
-                  <Link href={{ pathname: `/category/${item?.name}`, query: { build: true } }}>
+                  <Link href={`/build/${item?.name}`}>
                     Select Component
                   </Link>
                 </Col>
@@ -79,8 +93,28 @@ const StackOfCards = () => {
           </Col>
         ))}
       </Row>
+      <div style={{textAlign:'center',margin:"2em auto"}}>
+      <Button type="primary" disabled={products?.length <6} onClick={()=>{
+       toast.success(' Build is Complete!')
+      }}>Complete Build</Button></div>
+
     </div>
+
+    <ToastContainer
+    position="bottom-right"
+    autoClose={5000}
+    hideProgressBar={false}
+    newestOnTop={false}
+    closeOnClick
+    rtl={false}
+    pauseOnFocusLoss
+    draggable
+    pauseOnHover
+    theme="light"
+    />
+    </>
   );
+  
 };
 
 export default StackOfCards;
