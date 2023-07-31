@@ -13,10 +13,10 @@ const { Header, Content, Footer } = Layout;
 import styles from "@/styles/Home.module.css";
 import Link from "next/link";
 import DropDown from "./DropDown";
-import { useSession, signIn, signOut } from "next-auth/react"
+import { useSession, signIn, signOut } from "next-auth/react";
 const RootLayout = ({ children }) => {
-  const { data: session } = useSession()
-  
+  const { data: session } = useSession();
+
   return (
     <Layout>
       <Header
@@ -39,7 +39,6 @@ const RootLayout = ({ children }) => {
               PC_BUILDER
             </Link>
           </h1>
-        
         </div>
         <Menu theme="dark" mode="vertical" className={styles.menu_items}>
           <Link href="/allNews">
@@ -48,36 +47,44 @@ const RootLayout = ({ children }) => {
               <DropDown />
             </items>
           </Link>
-         {!session?.user?.name && <Link href='' onClick={()=>signIn("google", {
-                callbackUrl: "http://localhost:3000/pcbuilder",
-              })}>
-            <items
-              style={{
-                margin: "0px 25px",
-              }}
+          {!session?.user?.name && (
+            <Link
+              href=""
+              onClick={() =>
+                signIn("google", {
+                  callbackUrl:
+                    "https://genuine-malabi-c5086f.netlify.app/pcbuilder",
+                })
+              }
             >
-              <UserOutlined />
-              Sign In
-            </items>
-          </Link>}
-          
-         {session?.user && <Link href='' onClick={()=>signOut()}>
-            <items
-              style={{
-                margin: "0px 25px",
-              }}
-            >
-              <UserOutlined />
-              Sign Out
-            </items>
-          </Link>}
-          
+              <items
+                style={{
+                  margin: "0px 25px",
+                }}
+              >
+                <UserOutlined />
+                Sign In
+              </items>
+            </Link>
+          )}
+
+          {session?.user && (
+            <Link href="" onClick={() => signOut()}>
+              <items
+                style={{
+                  margin: "0px 25px",
+                }}
+              >
+                <UserOutlined />
+                Sign Out
+              </items>
+            </Link>
+          )}
+
           <Link href="/pcbuilder">
             <items>
               {/* <MobileOutlined />  */}
-              <Button type="primary" >
-                PC BUILDER
-              </Button>
+              <Button type="primary">PC BUILDER</Button>
             </items>
           </Link>
         </Menu>
