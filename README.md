@@ -1,5 +1,5 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-Live link-> [PC Builder]([https://nextjs.org/](https://genuine-malabi-c5086f.netlify.app/))
+This is a [Next.js](https://nextjs.org/) 
+### Live link-> [PC_Builder]([https://nextjs.org/](https://genuine-malabi-c5086f.netlify.app/))
 ## Getting Started
 - First, install the dependencies -> npm i
 - run the development -> npm run dev
