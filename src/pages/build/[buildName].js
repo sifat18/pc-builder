@@ -32,7 +32,7 @@ const BuildCategory = ({ productByCategory }) => {
                   {/* Link should wrap the button text */}
                   <Button type="dashed"onClick={()=>{
                     dispatch(add(item))
-                    router.push('/pc_builder')
+                    router.push('/pcbuilder')
 
                   }}>Add this to build</Button>
                 </Col>

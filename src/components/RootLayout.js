@@ -49,7 +49,7 @@ const RootLayout = ({ children }) => {
             </items>
           </Link>
          {!session?.user?.name && <Link href='' onClick={()=>signIn("google", {
-                callbackUrl: "http://localhost:3000/pc_builder",
+                callbackUrl: "http://localhost:3000/pcbuilder",
               })}>
             <items
               style={{
@@ -72,7 +72,7 @@ const RootLayout = ({ children }) => {
             </items>
           </Link>}
           
-          <Link href="/pc_builder">
+          <Link href="/pcbuilder">
             <items>
               {/* <MobileOutlined />  */}
               <Button type="primary" >
