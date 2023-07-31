@@ -1,38 +1,32 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
+Live link-> [PC Builder]([https://nextjs.org/](https://genuine-malabi-c5086f.netlify.app/))
 ## Getting Started
+- First, install the dependencies -> npm i
+- run the development -> npm run dev
+- build it with -> npm run build
+- run the build file -> npm run start
 
-First, run the development server:
+### Project Overview: 
+PC Builder is an interactive website that serves as a hub for PC enthusiasts, offering a PC Builder tool, featured PC components, and a categorized product list. The website aims to empower users to build their own custom PCs while providing easy access to top-quality PC components and peripherals.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### features
+- PC Builder Tool: The PC Builder tool enables users to create personalized PC configurations by selecting and adding PC components, such as CPU, RAM, storage etc., to their build. Users can see real-time updates on the compatibility and total cost of the build.
+- Featured Products: The homepage showcases randomly selected PC components from various categories, allowing users to click on them to view detailed product information.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Product Detail Pages: Each featured product has a dedicated product detail page displaying specifications, images, customer reviews, and ratings. Users can access this page by clicking on the product from the homepage or the categorized product list.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- Categorized Product List: The website features a dropdown menu in the navbar that allows users to explore products categorized by PC components, such as CPU, RAM, SSD, GPU, etc. Users can select a category and navigate to view all products in that specific category.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Navbar with Authentication: The website's navbar includes a "PC Builder" button that is protected with authentication. Users must log in to access the PC Builder tool. Authenticated users can save and continue their PC builds at any time.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- User Authentication: PC Builder utilizes Google OAuth for user authentication, allowing users to sign in or sign up using their Google accounts.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Save and Finish Later: Authenticated users can save their ongoing PC builds and return to complete them later. This feature ensures a seamless and flexible user experience.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Project Technologies:
+- next js
+- next auth
+- antd 
+- json server
+- deployment at netlify
+ 
